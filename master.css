@@ -1,0 +1,92 @@
+body{
+    background-image:url(image/univ.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+table{border-collapse: collapse;}
+  td,th {
+    width: 150px; 
+    height: 30px;
+    color: white;
+    text-align:center;
+    }
+  th{background-color: gray;}
+  tr:nth-child(odd) td{background-color:#3bbbb3;
+    transition: 0.5s;
+  }
+  tr:nth-child(even) td{background-color: #79dc96;
+    transition: 0.5s;
+  }
+  tr:nth-child(odd):hover td{
+    background-color: white;
+    color: #3bbbb3;
+  }
+  tr:nth-child(even):hover td{
+    background-color: white;
+    color: #79dc96;
+  }
+  #lepas{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color:gray;
+      border-radius:10px;
+      position:absolute;
+      padding:7px 10px 7px 10px;
+      margin-left:1150px;
+      margin-top:80px;
+      text-decoration:none;
+      color:black;
+      font-size:17px;
+  }
+  form{
+      position:absolute;
+      margin-left:330px;
+      margin-top: 80px;
+  }
+  select{
+      height: 30px;
+  }
+  form input{
+      padding:7px;
+      background-color:whitesmoke;
+      border:0;
+      color : gray;
+  }
+  #car{
+      padding:7px 10px 7px 10px;
+  }
+  table{
+    margin-left:330px;
+    margin-top:150px; 
+    width:70%;
+  }
+  #menu{
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 60px;
+  }
+  ul{
+      padding-top:70px;
+      padding-left:10px;
+      margin:0;
+  }
+  #menu a{
+      text-decoration:none;
+      color : white;
+      
+      
+  }
+  #menu ul p{
+    border-bottom:1px solid white;
+    width:220px;
+    color:white;
+  }
+  a{
+    text-decoration: none;
+  }
+ 
